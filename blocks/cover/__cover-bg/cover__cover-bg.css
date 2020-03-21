@@ -1,0 +1,21 @@
+.cover__cover-bg {
+  text-decoration: none;
+  background-image: url(../../../images/doBaycala.png);
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+
+.cover__cover-bg:not(:hover) {
+  transition: .3s;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.cover__cover-bg:hover {
+  background-color: rgba(0, 0, 0, .6);
+  transition: 0.3s;
+}
+
+

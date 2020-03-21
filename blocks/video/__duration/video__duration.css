@@ -1,0 +1,22 @@
+.video__duration {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  color: #fff;
+  z-index: 1;
+  margin: auto auto 12px 30px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .video__duration {
+    margin: auto auto 8px 24px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__duration {
+    margin: auto auto 8px 16px;
+  }
+}
