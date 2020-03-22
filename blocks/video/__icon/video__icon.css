@@ -1,4 +1,4 @@
-.video__icon_play {
+.video__icon {
   width: 41px;
   height: 41px;
   margin: 30px 0 0 30px;
@@ -7,14 +7,14 @@
 
 
 @media screen and (max-width: 1023px) {
-  .video__icon_play {
+  .video__icon {
     margin: 24px auto 0 24px;
   }
 }
 
 
 @media screen and (max-width: 374px) {
-  .video__icon_play {
+  .video__icon {
     margin: 16px auto 0 16px;
   }
 }
