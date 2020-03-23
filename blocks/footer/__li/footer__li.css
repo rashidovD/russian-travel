@@ -5,3 +5,19 @@
 .footer__li:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 424px) {
+  .footer__li {
+    margin-top: 20px;
+  }
+
+  .footer__li:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__li {
+    margin-right: 0;
+  }
+}

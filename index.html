@@ -12,7 +12,7 @@
       <img src="./images/__logo.svg" alt="Лого. Россия" class="header__logo">
       <div class="header__lang-navigation">
         <a href="#" class="header__lang header__lang_active link">Ru</a>
-        <a href="#" class="header__lang header__lang link">En</a>
+        <a href="#" class="header__lang link">En</a>
       </div>
     </header>
     <main class="content">
@@ -39,7 +39,7 @@
           <li class="intro__fact"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
           <li class="intro__fact"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
           <li class="intro__fact"><span class="intro__span-accent">Природных заповедников</span> 105</li>
-          <li class="intro__fact"><span class="intro__span-accent">Аэропортов</span> 241</>
+          <li class="intro__fact"><span class="intro__span-accent">Аэропортов</span> 241</li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -148,19 +148,18 @@
           Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования
         </p>
         <div class="video__container">
-          <a href="https://vimeo.com/81106671" class="video__item video__item_bg-kam">
+          <a href="https://vimeo.com/81106671" class="video__item video__item_bg_bg-kam">
             <img src="./images/__icon_play.svg" alt="play" class="video__icon link">
             <p class="video__duration">6:30</p>
             <h3 class="video__title">Colors of Kamchatka</h3>
             <p class="video__subtitle">Director: Pavel Karykhalin</p>
           </a>
-          <a href="https://vimeo.com/290675450" class="video__item video__item_bg-obs">
+          <a href="https://vimeo.com/290675450" class="video__item video__item_bg_bg-obs">
             <img src="./images/__icon_play2.svg" alt="play" class="video__icon link">
             <p class="video__duration">24:45</p>
             <h3 class="video__title">Обсерватория | Observatory</h3>
             <p class="video__subtitle">Director: Alexander Khudokon</p>
           </a>
-
         </div>
       </section>
       <section class="comments">
@@ -229,3 +228,15 @@
   </div>
 </body>
 </html>
+
+
+<!-- Нужно исправить:
+- Удалите дублирование класса в английском языке + исправлено.)
+- Страница должна быть без Error в валидаторе https://validator.w3.org/#validate_by_upload + исправил, вроде ошибок больше нет)
+- .link:hover сделайте прозрачность 0.7 по макету + исправлено
+- стилизацию body и * вынесите в index.css + исправлено
+- для сложных модификаторов (модификаторы фона в видео) создайте одну папку _bg/ и храните оба файла модификаторов в ней (в названии модификатора так же добавьте _bg) + исправлено, создал папку bg перенес туда модификаторы фона, в названии добавил _bg, получилось модификатор bg в значении bg-kam)
+- .video__title добавьте ограничение ширины + исправлено, ограничение ширины задано)
+- footer__link на экране 1024. Параметры шрифта не соответствуют макету + исправлено)
+
+* первый раз все ошибки не появились) * -->
